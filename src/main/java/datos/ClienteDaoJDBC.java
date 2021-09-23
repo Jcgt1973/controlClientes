@@ -40,6 +40,7 @@ public class ClienteDaoJDBC {
 
                 cliente = new Cliente(idCliente, nombre, apellido, email, telefono, saldo);
                 clientes.add(cliente);
+                
             }
         } catch (SQLException ex) {
             ex.printStackTrace(System.out);

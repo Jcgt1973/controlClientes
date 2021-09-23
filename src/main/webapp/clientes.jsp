@@ -10,7 +10,7 @@
         <h1>Control de Clientes</h1>
         <ul>
             <c:forEach var="cliente" items="${clientes}">                
-                <li>${cliente.idCliente} ${cliente.nombre} ${cliente.apellido} ${cliente.saldo}</li>
+              <li>${cliente.idCliente} ${cliente.nombre} ${cliente.apellido} ${cliente.saldo}</li>
             </c:forEach>
         </ul>
     </body>
